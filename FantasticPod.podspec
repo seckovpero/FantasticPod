@@ -36,7 +36,7 @@ This pod is about testing cocoa pods and making a lot of them. This pod is about
   #   'FantasticPod' => ['FantasticPod/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
