@@ -11,7 +11,6 @@
 		10187260D7EBB8229BD0541865715BC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		14A7E255BFCE9FB7D9A92F08ABB10B50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		1BC750ED627BDB32687E5F2E4B9A4C48 /* Pods-FantasticPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58CF969668DA75E12E3A84BC931BCB0B /* Pods-FantasticPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D33633AD074D6F29CE25B8DB46F55CC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0373E684D7FF02A943966528E4A3DF3B /* ReplaceMe.m */; };
 		70F5EFD0400AB9DA4859B91BE8AD08CE /* Pods-FantasticPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A73A026D994B9733646C4B755C4A9 /* Pods-FantasticPod_Tests-dummy.m */; };
 		81B6E084C4C9BE3FADA73737256095CA /* Pods-FantasticPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D952463EC69477B57C8B708570F6401 /* Pods-FantasticPod_Example-dummy.m */; };
 		9D13F9221758B05470CDAA412AE9B8F9 /* FantasticPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B47744AD919EA296C9E6B6B7C8A0BA5 /* FantasticPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,16 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0373E684D7FF02A943966528E4A3DF3B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FantasticPod/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		0D79FD67ED9FE154281922402BA52EAF /* Pods-FantasticPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FantasticPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0D952463EC69477B57C8B708570F6401 /* Pods-FantasticPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FantasticPod_Example-dummy.m"; sourceTree = "<group>"; };
 		0F2A73A026D994B9733646C4B755C4A9 /* Pods-FantasticPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FantasticPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		16CE4E6C689B80BEB10F2C510B4CD989 /* Pods-FantasticPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FantasticPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1B05D02D5E2763B110EA0E8DBFCE880D /* Pods-FantasticPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FantasticPod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		266566C19ECD22C64B6EA4D1F66A07C5 /* FantasticPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FantasticPod.framework; path = FantasticPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		266566C19ECD22C64B6EA4D1F66A07C5 /* FantasticPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FantasticPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CEED88AC74ECC1BB6735227B0EA973 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E628E6FF1456D316D5335FB03BB3EF /* Pods-FantasticPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FantasticPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		36A25FAE750C217167697F0B25FE734E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		36A25FAE750C217167697F0B25FE734E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3D291A6119EFBF0687728E047FB48828 /* FantasticPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FantasticPod.xcconfig; sourceTree = "<group>"; };
 		3E39CD1F8D7E5C718DDA536B19ECB6E1 /* FantasticView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FantasticView.m; path = FantasticPod/Classes/FantasticView.m; sourceTree = "<group>"; };
 		410F42722AD6A2E16E2BFD891ADFC8B9 /* Pods-FantasticPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FantasticPod_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -51,22 +49,22 @@
 		58CF969668DA75E12E3A84BC931BCB0B /* Pods-FantasticPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FantasticPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		5A2C08F15A3BFA07EC8068DB04721C76 /* Pods-FantasticPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FantasticPod_Example-resources.sh"; sourceTree = "<group>"; };
 		5EAFEC54111DF64A42BCCCEC5376060B /* Pods-FantasticPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FantasticPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63C0F61CCC16B3E988721311D5F29ED8 /* FantasticPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FantasticPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		63C0F61CCC16B3E988721311D5F29ED8 /* FantasticPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FantasticPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6480F80BDFB6DBDA2D2C0D5353FF1940 /* FantasticPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FantasticPod-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68B95EE6A159F6C0BFBD0DD7752A40E2 /* Pods-FantasticPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FantasticPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		79D0F46D62F4A95F1A048F0FCE707054 /* Pods-FantasticPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FantasticPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7B134F7C776852073D542099CF74EEB5 /* Pods-FantasticPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FantasticPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		86A95502B19B95F49717D3CE9CAE1B59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		86A95502B19B95F49717D3CE9CAE1B59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8B8B9F157DAE32090ECE1F429DB84B7D /* Pods-FantasticPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FantasticPod_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D7F20333C2FEF3DC7E55BDA3F87DE60 /* Pods-FantasticPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FantasticPod_Example.modulemap"; sourceTree = "<group>"; };
 		B385EB611417E3253428F7BB560F924D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC84F7768782ED93D99D512180F5E284 /* Pods-FantasticPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FantasticPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CC02E74FAA88CE0419ECB5EA31587426 /* Pods-FantasticPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FantasticPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D7BF2FBCAD8064ED265C77F20792A1CF /* FantasticPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FantasticPod.modulemap; sourceTree = "<group>"; };
-		D7D677722E4AD3CFCFE263C4EFA9FC3C /* Pods_FantasticPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FantasticPod_Tests.framework; path = "Pods-FantasticPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB25F77954604191C1EC1E109A008B13 /* Pods_FantasticPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FantasticPod_Example.framework; path = "Pods-FantasticPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D677722E4AD3CFCFE263C4EFA9FC3C /* Pods_FantasticPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasticPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB25F77954604191C1EC1E109A008B13 /* Pods_FantasticPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasticPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02C7EF19D65AC144A1DFCA3B02B8193 /* Pods-FantasticPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FantasticPod_Tests.modulemap"; sourceTree = "<group>"; };
 		F7DACA0C94A2290406B8C8314954B7D8 /* FantasticPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FantasticPod-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,7 +155,6 @@
 			children = (
 				53BEA17D558B30FCD8A32BC60DEAC1BC /* FantasticView.h */,
 				3E39CD1F8D7E5C718DDA536B19ECB6E1 /* FantasticView.m */,
-				0373E684D7FF02A943966528E4A3DF3B /* ReplaceMe.m */,
 				39C45D8A3395F1BC309C8557C83EA593 /* Pod */,
 				64F562200D82026091948F904A3714EF /* Support Files */,
 			);
@@ -360,7 +357,6 @@
 			files = (
 				A891B06F21F2634D60D92E65A6AC012F /* FantasticPod-dummy.m in Sources */,
 				F8C9E40B10D5239200C726EBF26B04CA /* FantasticView.m in Sources */,
-				3D33633AD074D6F29CE25B8DB46F55CC /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
