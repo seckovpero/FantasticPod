@@ -6,6 +6,5 @@ target 'FantasticPod_Example' do
   target 'FantasticPod_Tests' do
     inherit! :search_paths
 
-    
   end
 end

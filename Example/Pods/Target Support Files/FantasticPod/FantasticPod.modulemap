@@ -1,0 +1,6 @@
+framework module FantasticPod {
+  umbrella header "FantasticPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

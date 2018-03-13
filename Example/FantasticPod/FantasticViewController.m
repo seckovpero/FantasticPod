@@ -7,6 +7,7 @@
 //
 
 #import "FantasticViewController.h"
+#import <FantasticPod/FantasticView.h>
 
 @interface FantasticViewController ()
 
@@ -14,9 +15,10 @@
 
 @implementation FantasticViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+    FantasticView *fantView = [[FantasticView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:fantView];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

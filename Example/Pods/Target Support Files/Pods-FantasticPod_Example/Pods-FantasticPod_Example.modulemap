@@ -1,0 +1,6 @@
+framework module Pods_FantasticPod_Example {
+  umbrella header "Pods-FantasticPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

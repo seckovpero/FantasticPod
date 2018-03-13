@@ -1,0 +1,23 @@
+{
+  "name": "FantasticPod",
+  "version": "0.1.0",
+  "summary": "This pod is about testing cocoa pods and making a lot of them.",
+  "description": "This pod is about testing cocoa pods and making a lot of them. This pod is about testing cocoa pods and making a lot of them. This pod is about testing cocoa pods and making a lot of them.",
+  "homepage": "https://github.com/seckovpero/FantasticPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "seckovpero": "seckovpero@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/seckovpero/FantasticPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FantasticPod/Classes/*",
+  "public_header_files": "Pod/Classes/**/*.h"
+}

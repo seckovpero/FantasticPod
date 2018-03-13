@@ -1,0 +1,16 @@
+PODS:
+  - FantasticPod (0.1.0)
+
+DEPENDENCIES:
+  - FantasticPod (from `../`)
+
+EXTERNAL SOURCES:
+  FantasticPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FantasticPod: bcf2709cfbb3479a155d8a9da0721804263ad141
+
+PODFILE CHECKSUM: 488ef5670e45a67562ac47d7dc1cf011abb2145a
+
+COCOAPODS: 1.4.0
